@@ -3,6 +3,7 @@
 Grille du jeu
 """
 
+
 class Cellule:
     """
     La classe représente une case de la grille de jeu.
@@ -29,10 +30,21 @@ class Cellule:
         """Retourne la marque de la case"""
         return self.mark
 
-    def set_mark(self, mark):
+    def __set_mark(self, mark):
         """Modifie la marque de la case"""
         self.mark = mark
 
+    def set_empty(self):
+        """modifie la marque de la case en ("~")"""
+        self.__set_mark("~")
+
+    def set_destroyed(self):
+        """modifie la marque de la case en ("X")"""
+        self.__set_mark("X")
+
+    def set_occuped(self):
+        """modifie la marque de la case en ("O")"""
+        self.__set_mark("O")
 
 class Grille:
     """
@@ -57,6 +69,7 @@ class Grille:
             for j in range(self.longueur):
                 print(self.carte[str(j) + str(i + 1)], end=" ")
             print()
+
 
 if __name__ == "__main__":
     grille = Grille(10, 10)

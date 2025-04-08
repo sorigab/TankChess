@@ -6,8 +6,9 @@ main file of the game
 import pygame
 import pygame_menu
 
-# import config
+# import config et fonction
 import config as cg
+import gameinit as init
 
 # screen init
 screen = pygame.display.set_mode((cg.SCREEN_WIDTH, cg.SCREEN_HEIGHT))

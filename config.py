@@ -1,6 +1,5 @@
-"""
-Config file for the game
-"""
+"""Config file for the game"""
+
 # screen config
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
