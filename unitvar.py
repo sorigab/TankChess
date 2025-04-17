@@ -107,7 +107,7 @@ T_50 = [
     "T-50",  # name
     "light",  # classe
     550,  # max health
-    37,  # armor
+    52,  # armor
     28.45,  # speed
     3,  # range
     {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
@@ -119,7 +119,7 @@ T_34 = [
     "T-34",  # name
     "medium",  # classe
     590,  # max health
-    52,  # armor
+    74,  # armor
     17.01,  # speed
     3,  # range
     {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 0},  # ammo
@@ -143,7 +143,7 @@ SU_85 = [
     "SU-85",  # name
     "destroyer",  # classe
     460,  # max health
-    45,  # armor
+    63,  # armor
     16.95,  # speed
     3,  # range
     {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 1},  # ammo
@@ -152,3 +152,153 @@ SU_85 = [
 ]
 
 list_urss = [T_50, T_34, KV_1, SU_85]  # list of urss units
+
+Crusader_III = [
+    "Crusader III",  # name
+    "light",  # classe
+    540,  # max health
+    40,  # armor
+    21.63,  # speed
+    3,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    120,  # base damage
+    86,  # base penetration
+]
+
+Cromwell_I = [
+    "Cromwell I",  # name
+    "medium",  # classe
+    610,  # max health
+    76,  # armor
+    17.38,  # speed
+    3,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    75,  # base damage
+    110,  # base penetration
+]
+
+Churchill_III = [
+    "Churchill III",  # name
+    "heavy",  # classe
+    920,  # max health
+    177,  # armor
+    8.75,  # speed
+    3,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    135,  # base damage
+    145,  # base penetration
+]
+
+Achilles = [
+    "Achilles",  # name
+    "destroyer",  # classe
+    720,  # max health
+    57,  # armor
+    17.68,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    150,  # base damage
+    143,  # base penetration
+]
+
+list_uk = [Crusader_III, Cromwell_I, Churchill_III, Achilles]
+
+Chi_Nu = [
+    "Chi-Nu",  # name
+    "medium",  # classe
+    630,  # max health
+    50,  # armor
+    15.74,  # speed
+    3,  # range
+    {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 0},  # ammo
+    125,  # base damage
+    124,  # base penetration
+]
+
+Chi_To = [
+    "Chi-To",  # name
+    "medium",  # classe
+    920,  # max health
+    75,  # armor
+    12.23,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 0},  # ammo
+    130,  # base damage
+    155,  # base penetration
+]
+
+Chi_Ri = [
+    "Chi-Ri",  # name
+    "medium",  # classe
+    1250,  # max health
+    75,  # armor
+    13.02,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 0},  # ammo
+    130,  # base damage
+    155,  # base penetration
+]
+
+Na_To = [
+    "Na-To",  # name
+    "destroyer",  # classe
+    420,  # max health
+    25,  # armor
+    16.05,  # speed
+    5,  # range
+    {"HE": 1, "HEAT": 1, "AP": 1, "APCR": 0},  # ammo
+    150,  # base damage
+    150,  # base penetration
+]
+
+list_japan = [Chi_Nu, Chi_To, Chi_Ri, Na_To]
+
+AMX_ELC_BIS = [
+    "AMX ELC BIS",  # name
+    "light",  # classe
+    490,  # max health
+    25,  # armor
+    26.63,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 1, "AP": 0, "APCR": 0},  # ammo
+    240,  # base damage
+    120,  # base penetration
+]
+
+AMX_13 = [
+    "AMX 13",  # name
+    "light",  # classe
+    500,  # max health
+    50,  # armor
+    22.13,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    110,  # base damage
+    108,  # base penetration
+]
+
+M4A1_FL10 = [
+    "M4A1 FL10",  # name
+    "medium",  # classe
+    810,  # max health
+    50,  # armor
+    17.55,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    135,  # base damage
+    148,  # base penetration
+]
+
+ARL_44 = [
+    "ARL 44",  # name
+    "heavy",  # classe
+    950,  # max health
+    120,  # armor
+    16.14,  # speed
+    4,  # range
+    {"HE": 1, "HEAT": 0, "AP": 1, "APCR": 0},  # ammo
+    240,  # base damage
+    135,  # base penetration
+]
+
+list_france = [AMX_ELC_BIS, AMX_13, M4A1_FL10, ARL_44]
